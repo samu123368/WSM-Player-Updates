@@ -1,0 +1,4 @@
+# Signature verification requires exact bytes, never Windows newline conversion.
+update.manifest -text
+*.dol -text
+*.png -text
