@@ -1,0 +1,216 @@
+SHA-1 by Paul E. Jones
+======================
+Copyright (C) 1998, 2009
+Paul E. Jones <paulej@packetizer.com>
+
+Freeware Public License (FPL)
+
+This software is licensed as "freeware."  Permission to distribute
+this software in source and binary forms, including incorporation 
+into other products, is hereby granted without a fee.  THIS SOFTWARE 
+IS PROVIDED 'AS IS' AND WITHOUT ANY EXPRESSED OR IMPLIED WARRANTIES, 
+INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY 
+AND FITNESS FOR A PARTICULAR PURPOSE.  THE AUTHOR SHALL NOT BE HELD 
+LIABLE FOR ANY DAMAGES RESULTING FROM THE USE OF THIS SOFTWARE, EITHER 
+DIRECTLY OR INDIRECTLY, INCLUDING, BUT NOT LIMITED TO, LOSS OF DATA 
+OR DATA BEING RENDERED INACCURATE.
+
+
+Apple IEEE AIFF conversion
+==========================
+/*
+ * Copyright (C) 1988-1991 Apple Computer, Inc.
+ *
+ * All rights reserved.
+ *
+ * Warranty Information
+ *  Even though Apple has reviewed this software, Apple makes no warranty
+ *  or representation, either express or implied, with respect to this
+ *  software, its quality, accuracy, merchantability, or fitness for a
+ *  particular purpose.  As a result, this software is provided "as is,"
+ *  and you, its user, are assuming the entire risk as to its quality
+ *  and accuracy.
+ *
+ * This code may be used and freely distributed as long as it includes
+ * this copyright notice and the above warranty information.
+ *
+ * Machine-independent I/O routines for IEEE floating-point numbers.
+ *
+ * NaN's and infinities are converted to HUGE_VAL, which
+ * happens to be infinity on IEEE machines.  Unfortunately, it is
+ * impossible to preserve NaN's in a machine-independent way.
+ * Infinities are, however, preserved on IEEE machines.
+ *
+ * These routines have been tested on the following machines:
+ *    Apple Macintosh, MPW 3.1 C compiler
+ *    Apple Macintosh, THINK C compiler
+ *    Silicon Graphics IRIS, MIPS compiler
+ *    Cray X/MP and Y/MP
+ *    Digital Equipment VAX
+ *
+ *
+ * Implemented by Malcolm Slaney and Ken Turkowski.
+ *
+ * Malcolm Slaney contributions during 1988-1990 include big- and little-
+ * endian file I/O, conversion to and from Motorola's extended 80-bit
+ * floating-point format, and conversions to and from IEEE single-
+ * precision floating-point format.
+ *
+ * In 1991, Ken Turkowski implemented the conversions to and from
+ * IEEE double-precision format, added more precision to the extended
+ * conversions, and accommodated conversions involving +/- infinity,
+ * NaN's, and denormalized numbers.
+ */
+
+Upstream: https://github.com/chirlu/sox/blob/42b3557e13e0fe01a83465b672d89faddbe65f49/src/aiff.c
+
+
+ASH reference implementation
+============================
+MIT License
+
+Copyright (c) 2025 NinjaCheetah
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+External libogc / USB
+=====================
+  libogc copyright (C) 2004 - 2025
+    Michael Wiedenbauer (shagkur)
+    Dave Murphy (WinterMute)
+
+  This software is provided 'as-is', without any express or implied
+  warranty.  In no event will the authors be held liable for any
+  damages arising from the use of this software.
+
+  Permission is granted to anyone to use this software for any
+  purpose, including commercial applications, and to alter it and
+  redistribute it freely, subject to the following restrictions:
+
+  1. The origin of this software must not be misrepresented; you
+     must not claim that you wrote the original software. If you use
+     this software in a product, an acknowledgment in the product
+     documentation would be appreciated but is not required.
+  2. Altered source versions must be plainly marked as such, and
+     must not be misrepresented as being the original software.
+  3. This notice may not be removed or altered from any source
+     distribution.
+
+Portions of this library, notably the threading code, were inspired by and
+derived from code written for the RTEMS project (https://www.rtems.org/) by
+On-Line Applications Research Corporation.
+
+  COPYRIGHT (c) 1989-1999 On-Line Applications Research Corporation (OAR).
+  Copyright (C) 1999  Eric Valette (eric.valette@free.fr)
+
+
+  Redistribution and use in source and binary forms, with or without
+  modification, are permitted provided that the following conditions
+  are met:
+  1. Redistributions of source code must retain the above copyright
+      notice, this list of conditions and the following disclaimer.
+  2. Redistributions in binary form must reproduce the above copyright
+     notice, this list of conditions and the following disclaimer in the
+     documentation and/or other materials provided with the distribution.
+
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+ AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE
+ LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR
+ CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF
+ SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+ INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN
+ CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE)
+ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE
+ POSSIBILITY OF SUCH DAMAGE.
+
+
+RSA Data Security, Inc. MD5 Message-Digest Algorithm (derived)
+==============================================================
+MD5
+ converted to C++ class by Frank Thilo (thilo@unix-ag.org)
+ for bzflag (http://www.bzflag.org)
+
+   based on:
+
+   md5.h and md5.c
+   reference implemantion of RFC 1321
+
+   Copyright (C) 1991-2, RSA Data Security, Inc. Created 1991. All
+rights reserved.
+
+License to copy and use this software is granted provided that it
+is identified as the "RSA Data Security, Inc. MD5 Message-Digest
+Algorithm" in all material mentioning or referencing this software
+or this function.
+
+License is also granted to make and use derivative works provided
+that such works are identified as "derived from the RSA Data
+Security, Inc. MD5 Message-Digest Algorithm" in all material
+mentioning or referencing the derived work.
+
+RSA Data Security, Inc. makes no representations concerning either
+the merchantability of this software or the suitability of this
+software for any particular purpose. It is provided "as is"
+without express or implied warranty of any kind.
+
+These notices must be retained in any copies of any part of this
+documentation and/or software.
+
+
+TinyXML by Lee Thomason
+=======================
+www.sourceforge.net/projects/tinyxml
+Original code by Lee Thomason (www.grinninglizard.com)
+
+This software is provided 'as-is', without any express or implied
+warranty. In no event will the authors be held liable for any
+damages arising from the use of this software.
+
+Permission is granted to anyone to use this software for any
+purpose, including commercial applications, and to alter it and
+redistribute it freely, subject to the following restrictions:
+
+1. The origin of this software must not be misrepresented; you must
+not claim that you wrote the original software. If you use this
+software in a product, an acknowledgment in the product documentation
+would be appreciated but is not required.
+
+2. Altered source versions must be plainly marked as such, and
+must not be misrepresented as being the original software.
+
+3. This notice may not be removed or altered from any source
+distribution.
+
+
+sigslot
+=======
+// sigslot.h: Signal/Slot classes
+//
+// Written by Sarah Thompson (sarah@telergy.com) 2002.
+//
+// License: Public domain. You are free to use this code however you like, with the proviso that
+//		  the author takes on no responsibility or liability for any use.
+//
+
+
+Original renderer, Monocypher and Noto notices are supplied alongside this file.
+The combined application is GPL v2; see COPYING.txt and SOURCE.md.

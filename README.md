@@ -6,6 +6,11 @@ source snapshots, personal settings, logs, backups or Nintendo resource packs.
 WSM Player reads the required Wii UI resources locally from the console's NAND.
 It is an unofficial homebrew application, not a Nintendo product.
 
+Reviewed source is available separately in
+[WSM-Player](https://github.com/samu123368/WSM-Player). Each new package's
+`SOURCE.md` links to its corresponding source revision. The combined application
+is GPL v2; `COPYING.txt` and component notices accompany the binary.
+
 In the current app, open **WSM Player Settings → WSM Player Updates → Check for
 updates**. The official feed is configured automatically. A newer build enables
 **Download and install**, followed by **Restart WSM Player**. An equal build
