@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<app version="1">
+  <name>WSM Player</name>
+  <coder>Dimok, Giantpune and samu</coder>
+  <version>1.2</version>
+  <release_date>20261009000000</release_date>
+  <short_description>A customizable Wii Menu player</short_description>
+  <long_description>Animated Wii channels, custom themes, mouse controls and a free camera. Real channel launching is optional. Hold B + Minus at startup for safe mode.</long_description>
+  <no_ios_reload/>
+  <ahb_access/>
+</app>
